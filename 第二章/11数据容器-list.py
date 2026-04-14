@@ -28,3 +28,8 @@ print(var[:3:1])
 print(var[:3:])
 print(var[:3])
 print(type(var[0:3]))
+
+
+list = [3,5,6,456,3,54,23,89,23]
+new_list = [ item**2 for item in list if item %2 == 0 ]
+print(new_list)
