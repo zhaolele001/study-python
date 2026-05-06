@@ -32,3 +32,7 @@ class Son(Mather, Father):
 son = Son()
 print(f"儿子的性别:{son.gender}")
 son.somking()
+
+
+
+
